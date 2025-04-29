@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText"
+    android:importantForAutofill="no">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perkalian 3x3"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bilangan pertama"
+     />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/satu"
+
+        android:inputType="numberDecimal"
+        android:lines="1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bilangan kedua"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dua"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bilangan ketiga"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tiga"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitung"
+        android:text="hitung"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:lines="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_hasil"
+        android:gravity="center"
+        android:text="----"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+</LinearLayout>
